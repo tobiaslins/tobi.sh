@@ -8,7 +8,8 @@ export const Project: React.FC<{
   description: string;
   style: MotionStyle;
   url: string;
-}> = ({ name, url, logo, color, description, style }) => {
+  tags: JSX.Element;
+}> = ({ name, url, logo, color, description, style, tags }) => {
   return (
     <motion.a
       href={url}
@@ -41,14 +42,7 @@ export const Project: React.FC<{
         </div>
 
         <div className="mt-3 text-sm text-gray-700">{description}</div>
-        <div className="mt-2">
-          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-gray-100 text-gray-800 mr-2">
-            React
-          </span>
-          <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800">
-            GraphQL
-          </span>
-        </div>
+        {tags}
       </div>
     </motion.a>
   );

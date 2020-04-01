@@ -49,12 +49,31 @@ const Home: NextPage = () => {
           color="#FFF0D3"
           url="https://splitbee.io/"
           style={{ scale }}
-          description="Splitbee is an Analytics and A/B testing tool that focuses on usability"
+          description="Splitbee is an Analytics and A/B testing tool that focuses on usability and performance"
           logo={
             <img
               className="w-16 transform transition-transform duration-500 group-hover:scale-110"
               src="/logo.svg"
             />
+          }
+          tags={
+            <div className="mt-2">
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-gray-100 text-gray-800 mr-2">
+                React
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
+                TimescaleDB
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mr-2">
+                GraphQL
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-green-100 text-green-800 mr-2">
+                Cloudflare Workers
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-orange-100 text-orange-800 mr-2">
+                Redis
+              </span>
+            </div>
           }
         />
         <Project
@@ -62,12 +81,25 @@ const Home: NextPage = () => {
           url="https://apps.apple.com/br/app/upclimb/id1479219726?l=en"
           style={{ scale }}
           color="rgba(180, 216, 165, 0.23)"
-          description="Upclimb is an App that provides workouts and tracking specific for climbers."
+          description="An Mobile App for climbers that provides workouts and tracking."
           logo={
             <img
               className="w-16 transform transition-transform duration-500 group-hover:scale-110"
               src="/upclimb.svg"
             />
+          }
+          tags={
+            <div className="mt-2">
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-gray-100 text-gray-800 mr-2">
+                React Native
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
+                Sanity
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mr-2">
+                GraphQL
+              </span>
+            </div>
           }
         />
         <Project
@@ -75,12 +107,22 @@ const Home: NextPage = () => {
           url="https://apps.apple.com/at/app/mobile-hub-for-lisk/id1390358799"
           style={{ scale }}
           color="rgba(108, 186, 248, 0.2)"
-          description="An iOS and Android App for the Lisk Blockchain"
+          description="An iOS and Android App for the Lisk Blockchain. Provides a wallet and an blockchain explorer"
           logo={
             <img
               className="w-16 transform transition-transform duration-500 group-hover:scale-110"
               src="/lisk_hub.png"
             />
+          }
+          tags={
+            <div className="mt-2">
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-gray-100 text-gray-800 mr-2">
+                React Native
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
+                LiskJS
+              </span>
+            </div>
           }
         />
       </motion.div>
@@ -120,7 +162,7 @@ const Home: NextPage = () => {
             <Position
               company="mPAY24"
               position="Software Engineer"
-              description="Building Axcept.io. An visual testing platform"
+              description="Working on the complete platform, website & SDKs"
               url=""
               from="Sept. 2014"
               to="June 2018"
