@@ -20,13 +20,31 @@ const Home: NextPage = () => {
           content="Tobias Lins - React, React Native, Node.JS & GraphQL Consultant"
         />
         <script async src="https://cdn.splitbee.io/sb.js"></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Tobias Lins",
+  "url": "https://tobi.sh",
+  "image": "https://pbs.twimg.com/profile_images/1264167841827360768/rbrgZalT_400x400.jpg",
+  "sameAs": "https://twitter.com/linstobias",
+  "jobTitle": "Founder",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Splitbee"
+  }  
+}`,
+          }}
+        ></script>
       </Head>
-      <h1 className="font-bold text-4xl">Tobias Lins</h1>
-      <div className="text-gray-600 mb-5 font-medium">
+      <h1 className="text-4xl font-bold">Tobias Lins</h1>
+      <div className="mb-5 font-medium text-gray-600">
         Freelance Software Consultant focusing on React, React Native, GraphQL,
         NodeJS & PostgreSQL
       </div>
-      <h2 className="font-bold text-2xl mt-8 mb-3">Projects</h2>
+      <h2 className="mt-8 mb-3 text-2xl font-bold">Projects</h2>
       <motion.div
         variants={{
           hidden: { opacity: 1, scale: 1 },
@@ -36,13 +54,13 @@ const Home: NextPage = () => {
             transition: {
               delay: 0,
               easings: "backOut",
-              staggerChildren: 0.2
-            }
-          }
+              staggerChildren: 0.2,
+            },
+          },
         }}
         initial="hidden"
         animate="visible"
-        className="grid sm:grid-cols-3  grid-cols-1 gap-3"
+        className="grid grid-cols-1 gap-3 sm:grid-cols-3"
       >
         <Project
           name="Splitbee"
@@ -52,7 +70,7 @@ const Home: NextPage = () => {
           description="Splitbee is an Analytics and A/B testing tool that focuses on usability and performance"
           logo={
             <img
-              className="w-16 transform transition-transform duration-500 group-hover:scale-110"
+              className="w-16 transition-transform duration-500 transform group-hover:scale-110"
               src="/logo.svg"
             />
           }
@@ -84,7 +102,7 @@ const Home: NextPage = () => {
           description="An Mobile App for climbers that provides workouts and tracking."
           logo={
             <img
-              className="w-16 transform transition-transform duration-500 group-hover:scale-110"
+              className="w-16 transition-transform duration-500 transform group-hover:scale-110"
               src="/upclimb.svg"
             />
           }
@@ -110,7 +128,7 @@ const Home: NextPage = () => {
           description="An iOS and Android App for the Lisk Blockchain. Provides a wallet and an blockchain explorer"
           logo={
             <img
-              className="w-16 transform transition-transform duration-500 group-hover:scale-110"
+              className="w-16 transition-transform duration-500 transform group-hover:scale-110"
               src="/lisk_hub.png"
             />
           }
@@ -126,8 +144,8 @@ const Home: NextPage = () => {
           }
         />
       </motion.div>
-      <h2 className="font-bold text-2xl mt-8 mb-3">Work Experience</h2>
-      <div className="align-middle inline-block max-w-full w-full shadow overflow-hidden sm:rounded-lg border-b last:border-b-0 border-gray-200">
+      <h2 className="mt-8 mb-3 text-2xl font-bold">Work Experience</h2>
+      <div className="inline-block w-full max-w-full overflow-hidden align-middle border-b border-gray-200 shadow sm:rounded-lg last:border-b-0">
         <table className="w-full">
           <tbody className="bg-white">
             <Position
@@ -138,7 +156,7 @@ const Home: NextPage = () => {
               from="June 2019"
               logo={
                 <img
-                  className="h-10 w-10"
+                  className="w-10 h-10"
                   src={`/tobiaslins.svg`}
                   alt="Tobias Lins logo"
                 />
@@ -153,7 +171,7 @@ const Home: NextPage = () => {
               to="July 2019"
               logo={
                 <img
-                  className="h-10 w-10"
+                  className="w-10 h-10"
                   src={`/dcodeit.png`}
                   alt="d:code:it logo"
                 />
@@ -177,12 +195,12 @@ const Home: NextPage = () => {
           </tbody>
         </table>
       </div>
-      <h2 className="font-bold text-2xl mt-8 mb-3">Contact</h2>
+      <h2 className="mt-8 mb-3 text-2xl font-bold">Contact</h2>
       <div className="text-base text-gray-900">
         If you are interested in working with me just drop me a short mail at{" "}
         <b>me@tobi.sh</b>
       </div>
-      <div className="mt-8 text-gray-600 mb-5 font-medium flex justify-center">
+      <div className="flex justify-center mt-8 mb-5 font-medium text-gray-600">
         <a
           data-splitbee-event="Click Github"
           target="_blank"
@@ -190,7 +208,7 @@ const Home: NextPage = () => {
         >
           Github
         </a>
-        <span className="font-bold mx-2">·</span>
+        <span className="mx-2 font-bold">·</span>
         <a
           data-splitbee-event="Click LinkedIn"
           target="_blank"
@@ -198,7 +216,7 @@ const Home: NextPage = () => {
         >
           LinkedIn
         </a>
-        <span className="font-bold mx-2">·</span>
+        <span className="mx-2 font-bold">·</span>
         <a
           data-splitbee-event="Click Resume"
           target="_blank"
@@ -206,7 +224,7 @@ const Home: NextPage = () => {
         >
           Resume
         </a>
-        <span className="font-bold mx-2">·</span>
+        <span className="mx-2 font-bold">·</span>
         <a
           data-splitbee-event="Click Twitter"
           target="_blank"
