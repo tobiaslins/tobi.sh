@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <link rel="manifest" href="/static/manifest.json" />
         <meta
           name="description"
-          content="Tobias Lins - React, React Native, Node.JS & GraphQL Consultant"
+          content="Tobias Lins - React, React Native, Node.js & GraphQL Consultant"
         />
         <script async src="https://cdn.splitbee.io/sb.js"></script>
         <script
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       <h1 className="text-4xl font-bold">Tobias Lins</h1>
       <div className="mb-5 font-medium text-gray-600">
         Freelance Software Consultant focusing on React, React Native, GraphQL,
-        NodeJS & PostgreSQL
+        Node.js & PostgreSQL
       </div>
       <h2 className="mt-8 mb-3 text-2xl font-bold">Projects</h2>
       <motion.div
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
           color="#FFF0D3"
           url="https://splitbee.io/"
           style={{ scale }}
-          description="Splitbee is an Analytics and A/B testing tool that focuses on usability and performance"
+          description="Splitbee is an analytics and A/B testing tool that focuses on usability and performance"
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
           url="https://apps.apple.com/br/app/upclimb/id1479219726?l=en"
           style={{ scale }}
           color="rgba(180, 216, 165, 0.23)"
-          description="An Mobile App for climbers that provides workouts and tracking."
+          description="A mobile app for climbers that provides workouts and tracking."
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
@@ -151,7 +151,7 @@ const Home: NextPage = () => {
             <Position
               company="Tobias Lins"
               position="Freelance Consultant, System Architect"
-              description="I'm helping clients developing React & Node Applications"
+              description="Helping clients develop React & Node applications"
               url=""
               from="June 2019"
               logo={
@@ -165,7 +165,7 @@ const Home: NextPage = () => {
             <Position
               company="d:code:it"
               position="Fullstack Software Engineer"
-              description="Building Axcept.io. An visual testing platform"
+              description="Building Axcept.io, a visual testing platform"
               url=""
               from="Sept. 2018"
               to="July 2019"
@@ -206,7 +206,7 @@ const Home: NextPage = () => {
           target="_blank"
           href="https://github.com/tobiaslins"
         >
-          Github
+          GitHub
         </a>
         <span className="mx-2 font-bold">·</span>
         <a
