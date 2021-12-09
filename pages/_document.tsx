@@ -4,6 +4,7 @@ export default class DefaultDocument extends Document {
   public render() {
     return (
       <Html lang="en">
+        <Head />
         <body>
           <Main />
           <NextScript />

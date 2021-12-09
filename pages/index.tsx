@@ -1,4 +1,3 @@
-import "../styles/index.css";
 import { NextPage } from "next";
 import Head from "next/head";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
