@@ -18,7 +18,6 @@ const Home: NextPage = () => {
           name="description"
           content="Tobias Lins - React, React Native, Node.js & GraphQL Consultant"
         />
-        <script async src="https://cdn.splitbee.io/sb.js"></script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
