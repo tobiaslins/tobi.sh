@@ -39,8 +39,7 @@ const Home: NextPage = () => {
       </Head>
       <h1 className="text-4xl font-bold">Tobias Lins</h1>
       <div className="mb-5 font-medium text-gray-600">
-        Freelance Software Consultant focusing on React, React Native, GraphQL,
-        Node.js & PostgreSQL
+        Software Engineer building delightful and scalable products.
       </div>
       <h2 className="mt-8 mb-3 text-2xl font-bold">Projects</h2>
       <motion.div
@@ -78,7 +77,7 @@ const Home: NextPage = () => {
                 React
               </span>
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
-                TimescaleDB
+                Clickhouse
               </span>
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mr-2">
                 GraphQL
@@ -147,11 +146,30 @@ const Home: NextPage = () => {
         <table className="w-full">
           <tbody className="bg-white">
             <Position
+              company="Vercel"
+              position="Staff Software Engineer"
+              description="Building Vercel Web Analytics & Speed Insights"
+              url="https://vercel.com"
+              from="Sept. 2022"
+              logo={
+                <svg
+                  width="w-10"
+                  height="w-8"
+                  viewBox="0 0 76 65"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M37.5274 0L75.0548 65H0L37.5274 0Z" fill="#000000" />
+                </svg>
+              }
+            />
+            <Position
               company="Tobias Lins"
               position="Freelance Consultant, System Architect"
               description="Helping clients develop React & Node applications"
               url=""
               from="June 2019"
+              to="Sept. 2021"
               logo={
                 <img
                   className="w-10 h-10"
@@ -215,14 +233,14 @@ const Home: NextPage = () => {
           LinkedIn
         </a>
         <span className="mx-2 font-bold">·</span>
-        <a
+        {/* <a
           data-splitbee-event="Click Resume"
           target="_blank"
           href="https://stackoverflow.com/story/tobiaslins"
         >
           Resume
-        </a>
-        <span className="mx-2 font-bold">·</span>
+        </a> */}
+        {/* <span className="mx-2 font-bold">·</span> */}
         <a
           data-splitbee-event="Click Twitter"
           target="_blank"

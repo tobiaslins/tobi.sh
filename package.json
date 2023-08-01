@@ -14,13 +14,11 @@
   "license": "MIT",
   "dependencies": {
     "@splitbee/web": "^0.3.0",
-    "@zeit/next-css": "^1.0.1",
+    "@vercel/analytics": "1.1.0-beta.2",
     "framer-motion": "^1.10.3",
-    "next": "^12.0.7",
-    "next-compose-plugins": "^2.2.0",
-    "next-offline": "^4.0.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwindcss-filters": "^3.0.0"
   },
   "devDependencies": {
@@ -28,6 +26,8 @@
     "@types/node": "^13.9.8",
     "@types/react": "^16.9.30",
     "@types/react-dom": "^16.9.5",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.2.19",
     "tslint": "^5.20.1",
