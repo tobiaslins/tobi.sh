@@ -1,37 +1,29 @@
 {
-  "name": "tobi.sh",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "tobi.sh-new",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
     "start": "next start",
-    "export": "next export"
+    "lint": "eslint"
   },
-  "keywords": [],
-  "author": "Tobias Lins",
-  "license": "MIT",
   "dependencies": {
-    "@splitbee/web": "^0.3.0",
-    "@vercel/analytics": "1.1.0-beta.2",
-    "framer-motion": "^1.10.3",
-    "next": "^13.4.12",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss-filters": "^3.0.0"
+    "@vercel/analytics": "^1.5.0",
+    "next": "15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.3.0",
-    "@types/node": "^13.9.8",
-    "@types/react": "^16.9.30",
-    "@types/react-dom": "^16.9.5",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.27",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.2.19",
-    "tslint": "^5.20.1",
-    "tslint-react": "^4.1.0",
-    "typescript": "^4.5.2"
-  }
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.2.1+sha512.398035c7bd696d0ba0b10a688ed558285329d27ea994804a52bad9167d8e3a72bcb993f9699585d3ca25779ac64949ef422757a6c31102c12ab932e5cbe5cc92"
 }
