@@ -59,6 +59,22 @@ export default function Home() {
               Building systems that handle <span className="font-medium">hundreds of terabytes</span> of data in <span className="font-medium">ClickHouse</span>
             </p>
           </div>
+
+          <div>
+            <div className="mb-2">
+              <span className="text-gray-900 dark:text-gray-100 font-medium">Supporting</span>
+            </div>
+            <p>
+              Investor in <a 
+                href="https://jazz.tools" 
+                className="font-medium underline decoration-gray-400 hover:decoration-gray-600 dark:decoration-gray-500 dark:hover:decoration-gray-300 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                jazz.tools
+              </a>, <mark className="bg-orange-100 dark:bg-orange-900 dark:text-orange-100 px-1 rounded">the new kind of database</mark> that is distributed and accessible from both client and server
+            </p>
+          </div>
         </div>
       </main>
     </div>
