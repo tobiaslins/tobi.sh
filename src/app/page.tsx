@@ -74,6 +74,16 @@ export default function Home() {
                 jazz.tools
               </a>, <mark className="bg-orange-100 dark:bg-orange-900 dark:text-orange-100 px-1 rounded">the new kind of database</mark> that is distributed and accessible from both client and server
             </p>
+            <p className="mt-3">
+              Advising <a
+                href="https://invoiceradar.com/?ref=tobi.sh"
+                className="font-medium underline decoration-gray-400 hover:decoration-gray-600 dark:decoration-gray-500 dark:hover:decoration-gray-300 transition-colors"
+                target="_blank"
+                rel="noopener"
+              >
+                Invoice Radar
+              </a>, a startup automating invoice collection from web portals and email
+            </p>
           </div>
         </div>
       </main>
